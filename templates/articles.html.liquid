@@ -1,0 +1,26 @@
+---
+permalink: articles.html
+---
+
+<table>
+  <colgroup>
+    <col span="1">
+    <col span="1">
+  </colgroup>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Published</th>
+      <th>Updated</th>
+    </tr>
+  </thead>
+  <tbody>
+  {%- for article in site.data.articles %}
+    <tr>
+      <td><a href="{{ article.url }}">{{ article.name }}</a></td>
+      <td>{{ article.published | date: "%F" }}</td>
+      <td>{{ article.updated | date: "%F" }}</td>
+    </tr>
+  {%- endfor %}
+  </tbody>
+</table>

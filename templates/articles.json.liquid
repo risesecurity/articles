@@ -1,0 +1,14 @@
+---
+permalink: articles.json
+---
+
+[
+{%- for article in site.data.articles %}
+  {
+    "name":      "{{ article.name }}",
+    "published": "{{ article.published | date: "%F" }}",
+    "updated":   "{{ article.updated | date: "%F" }}",
+    "url":       "{{ article.url }}"
+  },
+{%- endfor %}
+]

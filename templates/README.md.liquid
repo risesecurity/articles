@@ -1,0 +1,11 @@
+---
+permalink: README.md
+---
+
+Articles
+========
+
+{% for article in site.data.articles %}
+* [{{ article.name }}]({{ article.url }})  
+  {{ article.description }}
+{% endfor %}

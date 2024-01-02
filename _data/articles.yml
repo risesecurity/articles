@@ -1,0 +1,68 @@
+---
+- description: This article discusses the use of backward taint analysis to determine
+    the exploitability of vulnerabilities. All examples presented on this article
+    were developed and executed on an x86-64 processor-based computer running Microsoft
+    Windows 7. Previous knowledge of vulnerability analysis and exploitation is required.
+  filename: p67_0x0a.txt
+  name: Dynamic Program Analysis and Software Exploitation
+  published: 2010-11-17 00:00:00.000000000 Z
+  resources:
+  - name: View on Phrack
+    url: http://phrack.org/issues/67/10.html
+  updated:
+  url: https://github.com/risesecurity/articles/raw/HEAD/p67_0x0a.txt
+- description: This article discusses software development and vulnerability exploitation
+    in Power/Cell Broadband Engine Architecture's Synergistic Processor Element (SPE).
+    All examples presented on this article were developed and executed using the IBM
+    Full-System Simulator 3.0 for the Cell Broadband Engine Processor for Intel (64-bit),
+    on an x86-64 processor-based computer running on Fedora 7 with the IBM SDK for
+    Multicore Acceleration 3.0. Previous knowledge of vulnerability analysis and exploitation
+    is required.
+  filename: p66_0x0d.txt
+  name: Hacking the Cell Broadband Engine Architecture
+  published: 2009-11-06 00:00:00.000000000 Z
+  resources:
+  - name: View on Phrack
+    url: http://phrack.org/issues/66/13.html
+  updated:
+  url: https://github.com/risesecurity/articles/raw/HEAD/p66_0x0d.txt
+- description: This article discusses buffer overflow vulnerabilities in Linux running
+    on Power/Cell Broadband Engine Architecture processor-based servers. All examples
+    presented on this article were developed and executed on an IBM BladeCenter JS22
+    Express server, a IBM BladeCenter QS21 server, and a Sony Playstation 3, running
+    Red Hat Enterprise Linux 4 Update 7. Previous knowledge of buffer overflows is
+    required.
+  filename: lopbuffer.pdf
+  name: Linux on Power/Cell BE Architecture Buffer Overflow Vulnerabilities
+  published: 2009-01-14 00:00:00.000000000 Z
+  resources:
+  - name: View on IBM developerWorks (Part 1)
+    url: http://web.archive.org/web/20160329141039/http://www.ibm.com/developerworks/linux/library/l-lopbuf1/
+  - name: View on IBM developerWorks (Part 2)
+    url: http://web.archive.org/web/20160329144519/http://www.ibm.com/developerworks/linux/library/l-lopbuf2/
+  updated:
+  url: https://github.com/risesecurity/articles/raw/HEAD/lopbuffer.pdf
+- description: This article discusses buffer overflow vulnerabilities in Linux kernel's
+    Slab Allocator. All examples presented on this article were developed and executed
+    on a x86 processor-based computer running Slackware Linux 10.2. Previous knowledge
+    of buffer overflows is required.
+  filename: linuxslab.pdf
+  name: Linux Slab Allocator Buffer Overflow Vulnerabilities
+  published: 2008-12-12 00:00:00.000000000 Z
+  resources:
+  - name: View on IBM developerWorks Brazil
+    url: http://web.archive.org/web/20090519005305/http://www.ibm.com:80/developerworks/br/library/Linux_Slab_Allocator_BR.html
+  updated:
+  url: https://github.com/risesecurity/articles/raw/HEAD/linuxslab.pdf
+- description: This article discusses the use of Intel System Management Mode (SMM)
+    for malicious purposes. All examples presented on this article were developed
+    and executed on an x86 processor-based computer running Debian 4.0r3 (Etch). Previous
+    knowledge of x86 architecture is required.
+  filename: p65_0x07.txt
+  name: System Management Mode Hacks
+  published: 2008-11-04 00:00:00.000000000 Z
+  resources:
+  - name: View on Phrack
+    url: http://phrack.org/issues/65/7.html
+  updated:
+  url: https://github.com/risesecurity/articles/raw/HEAD/p65_0x07.txt
