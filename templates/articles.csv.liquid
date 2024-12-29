@@ -1,0 +1,8 @@
+---
+permalink: articles.csv
+---
+
+name,published,updated,url
+{%- for article in site.data.articles %}
+{{ article.name }},{{ article.published | date: "%F" }},{{ article.updated | date: "%F" }},{{ article.url }}
+{%- endfor %}
